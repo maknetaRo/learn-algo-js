@@ -1,5 +1,4 @@
 function solution(A, K) {
-  // write your code in JavaScript (Node.js 8.9.4)
   for (let i = 0; i < K; i++) {
     let last = A.pop();
     A.unshift(last);
